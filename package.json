@@ -1,0 +1,38 @@
+{
+  "name": "react-native-microsoft-tts",
+  "version": "1.0.0",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "react-native-microsoft-tts.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/wangzhi17/react-native-microsoft-tts",
+  "author": "Zhi Wang <wangzhiqqdx@gmail.com> (https://github.com/wangzhi17)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangzhi17/react-native-microsoft-tts/issues"
+  },
+  "homepage": "https://github.com/wangzhi17/react-native-microsoft-tts#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RNMicrosoftTTSSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "cn.wangzhi.microsoft.tts"
+    }
+  }
+}
