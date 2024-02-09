@@ -1,6 +1,7 @@
 {
   "name": "react-native-microsoft-tts",
   "version": "1.0.0",
+  "description": "React Native Microsoft text to speech for iOS, Android",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
