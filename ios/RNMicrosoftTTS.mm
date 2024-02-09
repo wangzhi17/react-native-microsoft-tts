@@ -1,7 +1,7 @@
 #import "RNMicrosoftTTSSpec.h"
 #import "RNMicrosoftTTS.h"
 
-@implementation RTNCalculator
+@implementation RNMicrosoftTTS
 
 RCT_EXPORT_MODULE()
 
